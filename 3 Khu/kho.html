@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="/Kho/logo.jpg" />
+    <link rel="stylesheet" href="styleKho.css" />
+    <link rel="stylesheet" href="javaKho.js" />
+    <link rel="shortcut icon" type="image/png" href="/logo.jpg" />
+    <title>Quản lý thiết bị</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a href="../FamilyMart.html"
+          ><img src="logo.jpg" alt="" , height="100px"
+        /></a>
+      </header>
+
+      <h1>SMART SUPPERMARKET</h1>
+
+      <div class="dashboard">
+        <div class="device-item">
+          <div class="name">Kho</div>
+          <div class="canh">
+            <img
+              class="pic"
+              id="door_block"
+              src="block.webp"
+              height="200px"
+              width="200px"
+            />
+            <input class="btn1" type="button" id="btnOnId_0" value="ON" />
+            <input class="btn2" type="button" id="btnOffId_0" value="OFF" />
+          </div>
+        </div>
+
+        <div class="device-item">
+          <div class="name">Khu bán hàng</div>
+          <div class="canh1">
+            <img class="pic" id="TV_off" src="TV_off.png" />
+            <input class="btn1" type="button" id="btnOnId_1" value="ON" />
+            <input class="btn2" type="button" id="btnOffId_1" value="OFF" />
+            <img class="pic1" id="refri_off" src="refrigerator_off.png" />
+            <input class="btn1" type="button" id="btnOnId_2" value="ON" />
+            <input class="btn2" type="button" id="btnOffId_2" value="OFF" />
+          </div>
+        </div>
+
+        <div class="device-item">
+          <div class="name">Thu ngân</div>
+          <div class="canh1">
+            <img class="pic" id="cam_off" src="cam_off.png" />
+
+            <input class="btn1" type="button" id="btnOnId_3" value="ON" />
+            <input class="btn2" type="button" id="btnOffId_3" value="OFF" />
+
+            <img class="pic" id="bulb_off" src="lightbulb_off.png" />
+
+            <input class="btn1" type="button" id="btnOnId_4" value="ON" />
+            <input class="btn2" type="button" id="btnOffId_4" value="OFF" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-analytics.js"></script>
+  <script src="javaKho.js"></script>
+</html>

@@ -1,0 +1,164 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+.dieukhienled{position: relative;
+  width: 50%;
+  height: auto;  
+  left:20%;
+  top: 30px;
+  margin-top:2rem;
+  
+}
+header{
+  height: 100px;
+  background-color: #1673ba ;
+  
+}
+.container{
+  width: 1200px;
+  margin: 0 auto; /*tren duoi =0; trai phai auto */
+  height: 950px;
+  border:3px solid black;
+  background-image: url('pngtree-white-acrylic-brush-background-image_320177.jpg');
+  
+}
+.bangdieukhien{
+  position: relative;
+  height: 720px;  
+  width: 1000px;
+  left: 50px;
+  margin-bottom: 5rem;
+  padding: 40px;
+
+}
+.btn_led{
+  position: relative;
+  width: 300px;
+  height: auto; 
+  margin-top:4rem;
+  margin-left: 232px;
+}
+.btn1_led{
+  position: relative;
+  height:30px;
+  width:50px;
+  background: #78e08f;
+  border:2px white;
+  color:black;
+}
+.btn2_led{
+  position: relative;
+  height:30px;
+  width:50px;
+  color: white;
+  border:2px white;
+  background: #b71540;
+}
+.led{
+  position: absolute;
+  top:-35px;
+  left: 31px;
+  font-family: Didot;
+}
+    #getImage_fan.dieukhienfan {position: relative;
+    width: 300px;
+    height: auto;  
+   
+  
+}
+.dieukhienfan{position: relative;
+  width: 50%;
+  height: auto;  
+  left:60%;
+  top: -255px ;
+}
+
+.btn_fan{
+  position: absolute;
+  width: 300px;
+  height: auto; 
+  margin-top:-12.1rem;
+  margin-left: 510px;
+
+}
+.btn1_fan{
+  position: relative;
+  left:42%;
+  top: -19px;
+  height:30px;
+  width:50px;
+  background: #78e08f;
+  border:2px white;
+  color:black;
+    
+}
+.btn2_fan{
+  
+  position: relative;
+  left:42%;
+  top: -19px;
+  height:30px;
+  width:50px;
+  color: white;
+  border:2px white;
+  background: #b71540;
+}
+.fan{
+   position: absolute;
+  top:-54px;
+  left: 160px;
+  font-family: Didot;
+}
+
+
+.dieukhienmaylanh{position: relative;
+  width: 50%;
+  height: auto;  
+  left:40%;
+  top: -150px ;
+}
+
+.btn_maylanh{
+  position: absolute;
+    width: 400px;
+    height: auto; 
+    margin-top:-8rem;
+  margin-left: 270px;
+  
+}
+.btn1_maylanh{
+  position: relative;
+  left:42%;
+  top: -19px;
+  height:30px;
+  width:50px;
+  background: #78e08f;
+  border:2px white;
+  color:black;
+}
+.btn2_maylanh{
+
+  position: relative;
+  left:42%;
+  top: -19px;
+  height:30px;
+  width:50px;
+ color: white;
+  border:2px white;
+  background: #b71540;
+}
+.maylanh{
+   position: absolute;
+  top:-54px;
+  left: 150px;
+  font-family: Didot;
+  
+}
+h1 {
+  font-size:50px;
+  text-align:center;
+  margin-top:2rem;
+  font-family: Perpetua;
+}
